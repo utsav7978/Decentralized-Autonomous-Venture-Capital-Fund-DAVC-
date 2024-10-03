@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Decentralized Autonomous Venture Capital Fund (DAVC)/sol1.sol": "Ownable"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Decentralized Autonomous Venture Capital Fund (DAVC)/sol1.sol": {
+			"keccak256": "0x7a75ad18b3aaccf8b7d588208be7ee14905e7d33dc60c7c4e85761f72a87231f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://109a70bde8b4e2c9d4bf70ce6dd2c80f9eb36b15b9a8b3a50fce4df864cdd403",
+				"dweb:/ipfs/QmPG3j7WF3JtToeZjHMywRy6SsRrw12fwqKsKhqUivMtty"
+			]
+		}
+	},
+	"version": 1
+}
